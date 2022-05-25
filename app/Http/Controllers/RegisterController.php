@@ -42,7 +42,7 @@ class RegisterController extends Controller
         ]);
         
         // redireccionar
-        return redirect()-> route('post.index');     
+        return redirect()-> route('posts.index');     
     }
 
 }
