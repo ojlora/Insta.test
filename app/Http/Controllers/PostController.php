@@ -21,6 +21,6 @@ class PostController extends Controller
     }
     
     public function create(){
-        dd('creando un post...');
+       return view('posts.create');
     }
 }
